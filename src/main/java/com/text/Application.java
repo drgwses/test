@@ -1,11 +1,11 @@
 package com.text;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Application {
     public static void main(String[] args) {
-         SpringBootApplication application=new SpringBootApplication(Application.class);
-         22222222222222222222222222222222;
+        SpringApplication.run(Application.class,args);
     }
 }
